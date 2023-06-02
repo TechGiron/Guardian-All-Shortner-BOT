@@ -33,15 +33,15 @@ async def start(client,message):
 	Hello \n
 	🛡️ PLAN 🛡️\n
 	🌸Daily  Upload  limit Unlimited\n
-	🌸Price Rs 150 🇮🇳/🌎 1.85$  per Month__
+	🌸Price Rs 200 🇮🇳/🌎 2.5$  per Month__
 	
-	💸Pay Using Upi I'd \njaswindersingh42794@oksbi\n
+	💸Pay Using Upi I'd \rahulrathee52402@okhdfcbank\n
 	💸Pay Using qr code send /qr command\n
 	💸After Payment Send Screenshots Of\nPayment To Admin
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Cyniteofficial")], 
-        			[InlineKeyboardButton("Paytm 🌎",url = "https://t.me/Cyniteofficial")],
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/unicornguardian")], 
+        			[InlineKeyboardButton("Paytm 🌎",url = "https://t.me/unicornguardian")],
 		                [InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
        )
 
@@ -51,7 +51,7 @@ async def start(client,message):
 	await message.reply_text("""
 	PAID PLANS AVAILABLE\n
 	🛡️ PLAN 🛡️\n
-	🌸Price Rs 150 🇮🇳/🌎 1.85$  per Month__
+	🌸Price Rs 200 🇮🇳/🌎 2.5$  per Month__
 	🌸No Timeout\n
 Please /upgrade your subscription
 	""")
@@ -59,7 +59,7 @@ Please /upgrade your subscription
 # qr code
 @app.on_message(filters.private & filters.command(["qr"]))
 async def start(client,message):
-	await message.reply_photo("https://telegra.ph/file/f38072c0768fe42f93e77.jpg"),
+	await message.reply_photo("https://telegra.ph/file/94ba0503ff66ce734c81f.jpg"),
 
 #addpremium user
 
