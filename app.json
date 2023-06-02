@@ -1,5 +1,5 @@
 {
-  "name": "Url-Shortener-bot-V2",
+  "name": "Guardian-All-Shortner-BOT",
   "description": "Make short link by using Shortener using API key",
   "stack": "container",
   "logo": "https://i.ibb.co/1mwchh9/Screenshot-2022-07-08-at-11-06-34-AM.png",
@@ -7,8 +7,8 @@
     "telegram",
     "shortener"
   ],
-  "website": "https://github.com/Neutron-Bots",
-  "repository": "https://github.com/Hintpirox/allfine",
+  "website": "https://github.com/TechGiron",
+  "repository": "https://github.com/TechGiron/Guardian-All-Shortner-BOT",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token from @botfather",
