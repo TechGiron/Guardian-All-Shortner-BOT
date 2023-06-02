@@ -26,7 +26,7 @@ I Am **All In Link Converter Bot** 🤖
 🖼️ Hit 👉 /banner To Add **Banner** In **Photo**
 👊Hit 👉 /Available_shortners To Get **Available Shortners List.**
 
-Any Issue Contact - @CyniteSupport
+Any Issue Contact - @unicornguardian
 """
 
 HELP_MESSAGE = """**Hey there! My name is {firstname} and I'm a link convertor and shortener bot here to make your work easier and help you earn more 💰.**
