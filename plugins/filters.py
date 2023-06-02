@@ -13,7 +13,7 @@ def private_use(func):
 
         if IS_PRIVATE and chat_id not in ADMINS:
             await message.reply_text(
-                "This bot only works for Admins. [Contact Admin] (https://t.me/cyniteofficial)",
+                "This bot only works for Admins. [Contact Admin] (https://t.me/unicornguardian)",
                 quote=True,
                 disable_web_page_preview=True,
             )
