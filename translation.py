@@ -52,7 +52,7 @@ HELP_MESSAGE = """**Hey there! My name is {firstname} and I'm a link convertor a
 - **Send /mdisk_api To Connect Your Mdisk Api**
 - **/Info To Get Infomation About You**
 
-Any Issue Contact - @CyniteSupport"""
+Any Issue Contact - @unicornguardian"""
 
 ABOUT_TEXT = """
 **Available Websites:**
