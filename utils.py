@@ -282,7 +282,7 @@ async def update_stats(m: Message, method):
     reply_markup = str(m.reply_markup) if m.reply_markup else ""
     message = m.caption.html if m.caption else m.text.html
     mdisk_links = re.findall(
-        r'https?://mdisk.me[^\s`!()\[\]{};:".,<>?«»“”‘’]+', message + reply_markup
+        r'https?://vivdisk.com[^\s`!()\[\]{};:".,<>?«»“”‘’]+', message + reply_markup
     )
     droplink_links = await extract_link(message + reply_markup)
     total_links = len(droplink_links)
