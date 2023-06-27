@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 import aiohttp
 import heroku3
-from mdisky import Mdisk
+from vivdisky import Mdisk
 from pyrogram import Client
 from pyrogram.enums import ParseMode
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
