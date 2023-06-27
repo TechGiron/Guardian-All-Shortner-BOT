@@ -4,7 +4,7 @@ motor==2.5.1
 Pyrogram==2.0.30
 TgCrypto==1.2.3
 PyBypass==2.0.1
-mdisky
+vivdisky
 heroku3
 shortzy
 aiofiles
